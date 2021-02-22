@@ -14,7 +14,7 @@ body{
 .baner{
   height: 100vh;
   width: 100%;
-  background:  url(img/moll.jpg) left
+  background:  url(img/moll.jpg) left;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
