@@ -1,0 +1,183 @@
+@font-face {
+  font-family: op;
+  src: url(o.ttf);
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body{
+  background: gray;
+}
+.baner{
+  height: 100vh;
+  width: 100%;
+  background:  url(img/moll.jpg) left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.baner:after {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(0deg, gray,transparent,gray);
+}
+.textb{
+  position: absolute;
+  display: flex;
+  height: inherit;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: darkgray;
+}
+
+#tittel{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  z-index: 2;
+}
+
+#desb{
+  width: 80%;
+  text-align: center;
+  overflow: hidden;
+  z-index: 2;
+}
+.l{
+  position: fixed;
+  padding: 8px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+}
+.btnlogin{
+  margin-top: 30px;
+  height: 40px;
+  width: 80px;
+  z-index: 4;
+  font-size: 17px;
+  font-weight: bolder;
+  color: darkgrey;
+  background: gray;
+  border: none;
+  border-radius: 20px;
+  transition: all 1s;
+  box-shadow: 0 0 0 #000;
+}
+.btnlogin:hover{
+  border-radius: 20px 0 0 20px;
+  box-shadow: inset 0px 0px 9px #FFFFFF;
+}
+.login{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  /* background: linear-gradient(#42575AB5,#59425AB5); */
+  background: gray;
+  z-index: 5;
+  display: block;
+  transition: all 0.02s;
+  left: -100%;
+}
+.logi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.logf{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #DAFFFE;
+  z-index: 7;
+  text-align: center;
+  width: 280px;
+  height: 270px;
+  box-shadow: 10px 8px 5px #00000073,
+              -1px -1px 50px #FFFFFFBA ;
+}
+.logf > h3{
+  position: relative;
+  top: -25px;
+}
+#user{
+  margin: 5px 0 5px 0;
+  height: 25px;
+  width: 200px;
+}
+.logf > button{
+  height: 30px;
+  width: 60px;
+  border: none;
+  background: skyblue;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+  z-index: 6;
+}
+.logf > button:hover{
+  border: 3px solid pink;
+}
+.fb{
+  height: 14px;
+  width: 14px;
+}
+.po{
+  padding: 4px;
+  color: #34C1B16B;
+  text-align: center;
+  transition: all 1s;
+  box-shadow: 2px 2px 9px #000,
+              inset -2px -2px 9px #000,
+              -1px -1px 5px #FFFFFF66,
+              inset 2px 2px 9px #FFF;
+border-radius: 10px;
+}
+
+.po:hover{
+  
+  background: #3DE8E5;
+  box-shadow: 2px 2px 9px #000,
+              inset -2px -2px 9px #000,
+              -1px -1px 5px #FFFFFF66,
+              inset 2px 2px 9px #FFF,
+              0px 0px 100px #3DE8E5;
+}
+
+.txt{
+  text-align: center;
+  color: dimgray;
+}
+.ipad{
+  width: 100%;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: black;
+  color: gray;
+}
+.ipad{
+  position: relative;
+  top: 4px;
+}
